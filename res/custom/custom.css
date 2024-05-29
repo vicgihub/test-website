@@ -1,0 +1,129 @@
+.txt-bg-b ::selection{
+    background-color: beige;
+    color: black;
+}
+.txt-bg-w ::selection{
+    background-color: #333;
+    color: beige;
+}
+.body{
+    background: linear-gradient(to top,white,beige);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.separation{
+    margin-top: 7%;
+}
+.cards{
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+.card-cm{
+    background: linear-gradient(to top, aliceblue, rgb(255, 255, 250));
+    height: 360px;
+    width: 300px;
+    margin-left: 3%;
+    transition: all .1s linear;
+}
+.card-cm:hover{
+    border-width: 2px;
+}
+.card-cm-lst{
+    background: linear-gradient(to top, aliceblue, rgb(255, 255, 250));
+    height: 360px;
+    width: 300px;
+    transition: all .1s linear;
+}
+.card-cm-lst:hover{
+    border-width: 2px;
+}
+.button{
+    width: 100%;
+}
+.hd-cm {
+    width: 100%;
+    height: 100vh;
+}
+.hd-container {
+    position: relative;
+    height: 50vh;
+    overflow: hidden;
+}
+.hd-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hd-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+.row{
+    justify-content: center;
+}
+.specs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: darkcyan;
+}
+.centered-list {
+    padding: 0;
+}
+.specs a{
+    color: gray;
+    text-decoration: underline;
+    transition: all 0.2s ease;
+}
+.specs a:hover{
+    color: black;
+    text-decoration: none;
+}
+.specs-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.specs-button a{
+    width: 30%;
+    text-decoration: none;
+}
+.specs-button a button{
+    width: 100%;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}  
+.contact {
+    width: 90%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 768px) {
+    .contact {
+      width: 50%;
+    }
+}
+.pretty{
+    text-wrap: pretty;
+}
+#sticky-footer{
+    margin-top: 5%;
+}
+.cards-specs{
+    width: 90%;
+}
